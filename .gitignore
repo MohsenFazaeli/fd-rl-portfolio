@@ -4,3 +4,6 @@ agent_a2c.pth
 /trained_models/
 /datasets/
 
+
+# Large datasets
+datasets/*.csv
