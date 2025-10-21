@@ -7,3 +7,6 @@ agent_a2c.pth
 
 # Large datasets
 datasets/*.csv
+
+# Large datasets
+datasets/data.csv
