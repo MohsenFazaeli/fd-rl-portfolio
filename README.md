@@ -34,7 +34,7 @@ source .venv/bin/activate    # Windows: .venv\Scripts\activate
 python -m pip install -U pip
 
 # Core deps (versions play nicely with Py3.12 + Torch 2.9)
-pip install torch==2.9.* pandas==2.2.* numpy==2.1.* scipy==1.13.* statsmodels==0.14.*             gymnasium==0.29.* matplotlib==3.9.* tqdm==4.* pyyaml==6.*             stable-baselines3==2.3.* yfinance==0.2.* ta==0.11.*
+pip install torch==2.9.* pandas==2.2.* numpy==2.1.* scipy==1.13.* statsmodels==0.14.* gymnasium==0.29.* matplotlib==3.9.* tqdm==4.* pyyaml==6.* stable-baselines3==2.3.* yfinance==0.2.* ta==0.11.*
 
 # FinRL (use the library this script expects)
 # Clone NEXT TO this repo so the relative path works:
@@ -78,6 +78,8 @@ To use your own data later, replace the Yahoo download block with your loader an
 ---
 
 ## Quickstart (A2C, single run per command)
+
+The main entry point script is `training_frac.py`. All examples below run this script.
 
 The script exposes a few A2C hyperparameters only:
 
@@ -149,9 +151,9 @@ Inside you’ll find:
 ```bibtex
 @article{fd_rl_2025,
   title   = {Reinforcement Learning Enhanced by Fractional Differencing for Portfolio Optimization},
-  author  = {<Your Name>},
-  journal = {<Venue or Preprint>},
-  year    = {2025}
+  author  = {Ali Fazaeli, Robab Kalantari, Mohsen Fazaeli},
+  journal = {PLOS ONE (Under Review)},
+  year    = {2026}
 }
 ```
 
@@ -171,7 +173,7 @@ Inside you’ll find:
 ## License & Contact
 
 - **License:** see `LICENSE`.  
-- **Contact:** your.email@example.com
+- **Contact:** mohsen.fazaeli@aut.ac.ir
 
 ---
 
