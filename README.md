@@ -14,7 +14,7 @@ FD idea in one line: we transform prices to **fractionally differenced series** 
 ├─ env/
 │  ├─ marginEnv.py      # custom environment (MarginTradingEnv)
 │  └─ agent.py          # DRLAgent wrapper
-├─ frac_featurs.py      # ts_differencing_tau(...) used by the script
+├─ frac_features.py      # ts_differencing_tau(...) used by the script
 ├─ training_frac.py     # the script in this README (A2C baseline+FD features)
 ├─ datasets/            # created at runtime (cached csv)
 └─ ../FinRL-Library/    # FinRL repo (cloned next to this project)
